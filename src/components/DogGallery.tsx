@@ -21,8 +21,7 @@ const DogGallery = () => {
                     </Box>
                 ))}
             </Flex>
-            <Button onClick={
-                () => {
+            <Button onClick={    () => {
                     fetch('https://dog.ceo/api/breeds/image/random/6')
                         .then(res => res.json())
                         .then(data => setDog(data.message));
