@@ -17,7 +17,7 @@ const DogGallery = () => {
 
     return (
         loading ? <Spinner /> :
-        <Box p={4}>
+        <Box p={4}  >
             <Text fontSize={'24px'} >Dog Gallery</Text>
             <Flex  flexDirection={'row'} gap={2} flexWrap={'wrap'} >
                 {dog.map((dogUrl, index) => (

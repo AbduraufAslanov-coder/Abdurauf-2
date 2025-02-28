@@ -3,13 +3,13 @@ import React from 'react'
 
 const Header = () => {
   return (
-   <Box bg='#3b82f6' pt='3' pb='3'  >
+   <Box bg='#3b82f6' pt='3' border={'1px solid gray'} borderRadius={'10px'}  pb='3'  >
     <Flex >
 
 <Text ml={2} fontSize='20px' >Pet Gallery</Text>
 
 
-<Link ml='1050px' mr={3} href='DogGallery' > Dogs</Link>
+<Link ml='1050px' mr={3} href='DogGallery'> Dogs</Link>
 <Link href='CatGallery'> Cats</Link>
 
     </Flex>
