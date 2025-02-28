@@ -22,7 +22,7 @@ const CatGallery = () => {
             <Text fontSize={'24px'}>Cat Gallery</Text>
             <Flex flexDirection={'row'} gap={2} flexWrap={'wrap'}>
                 {cat.map((catUrl, index) => (
-                    <Box key={index} maxW={'350px'} boxShadow={'rgba(255, 57, 40, 1) 0px 2px 4px, rgba(255, 57, 40, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'} _hover={{ transform: 'scale(1.1)' }} borderRadius={'10px'} border={'1px solid gray'} maxH={'650px'} m={2}>
+                    <Box key={index} maxW={'350px'} boxShadow={'rgba(255, 57, 40, 1) 0px 2px 4px, rgba(255, 57, 40, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset'} _hover={{ transform: 'scale(1.1)' } } borderRadius={'10px'} border={'1px solid gray'} maxH={'650px'} m={2}>
                         <Image borderRadius={'10px'} border={'1px solid gray'} src={catUrl} alt="cats" />
                     </Box>
                 ))}
